@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="ExtraStyle.css">
+    <!-- <link rel="stylesheet" href="styleSheet.CSS" type="text/CSS"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Font Awesome icons kit link  -->
+    <script src=" https://kit.fontawesome.com/9f195b82c1.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container m-20">
+        <div class="card was-validated">
+            <img class="card-img-top" src="ASSET/IMG/bg-reg-img.jpg" alt="Card image cap">
+            <div class="card-body">
+                <form name="contact-form" action="mail.php" method="POST">
+                    <div class="form-row" style="margin-bottom:10px ;">
+                        <div class="form-group col-md-6">
+                            <label for="inputFName">First Name</label>
+                            <input type="text" class="form-control was-validated" id="inputFName"
+                                placeholder="Enter Your First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputFName">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-row" style="margin-bottom:10px ;">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail"
+                                placeholder="Enter Your Email Address" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputFName">Cell Number</label>
+                            <input type="number" inputmode="numeric" class="form-control"
+                                placeholder="Enter Your Cell Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Gender">Gender</label>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" value="" name="optradio" required>Option 1
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" value="" name="optradio">Option 2
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity" required>
+                        </div>
+
+                        <div class="form-group col-md-3">
+                            <label for="inputZip">State</label>
+                            <input type="text" class="form-control" id="inputstate" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputCountry">Country</label>
+                            <input type="text" class="form-control" id="inputCountry" placeholder="Enter Your Country"
+                                required>
+                        </div>
+                    </div>
+                    <label for="Hobbies">Hobbies</label>
+                    <div class="form-group">
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 1
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 2
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 3
+                            </label>
+                        </div>
+                        <br>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 1
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 2
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">Option 3
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputState">Courses Applied For</label>
+                        <select id="inputState" required class="form-control">
+                            <option selected>Choose...</option>
+                            <option> Office Automation</option>
+                            <option> Web Designing & Development</option>
+                            <option> Graphic Designing</option>
+                            <option> Computerize Accounting</option>
+                            <option> Android Development</option>
+                            <option> Digital Marketing (Social Media Marketing)</option>
+                            <option> Certificate in Information Technology</option>
+                            <option>
+                                Freelancing and many more courses are included!</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                            <option>...</option>
+                  </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputState">Agree to All terms</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck" aria-required="">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+            </script>
+</body>
+
+</html>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styleSheet.CSS" type="text/CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Font Awesome icons kit link  -->
+    <script src=" https://kit.fontawesome.com/9f195b82c1.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- header starts from here-- -->
+    <!-- navigation -->
+    <div class="container_fluid sticky-top">
+        <nav class=" navbar navbar-expand-md navbar-light bg-light possition-fixed">
+            <a href="index.html" class="ml-5">
+                <img src="ASSET/IMG/logo2.png" height="50" alt="lOGO">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link" id="nav-li">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="about.html" class="nav-link" id="nav-li">About
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="about.html" class="dropdown-item">Introduction</a>
+                            <a href="iPortfolio/index.html" class="dropdown-item">Portfolio</a>
+                            <a href="Contact.html" class="dropdown-item">FAQs</a>
+                        </div>
+                    </div>
+                        <a href="Team.html" class="nav-item nav-link" id="nav-li">Teacher</a>
+                          
+                    <div class="nav-item dropdown">
+                        <a href="courses.html" style="background-color: dodgerblue;color: white;"
+                            class="nav-item active nav-link" id="nav-li">Courses
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Office Automation</a>
+                            <a href="#" class="dropdown-item">Computeize Accouting</a>
+                            <a href="#" class="dropdown-item">CIT(Certificate of Information Technology)</a>
+                            <a href="#" class="dropdown-item">Graphic Designing</a>
+                            <a href="#" class="dropdown-item">Web Designing/Developmemt</a>
+                            <a href="#" class="dropdown-item">Software Developement</a>
+                            <a href="#" class="dropdown-item">Digital/Social Media Marketing</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="nav-li">IT Solution
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Web & App Develpement</a>
+                            <a href="#" class="dropdown-item">Software Developement</a>
+                            <a href="#" class="dropdown-item">Data Entry & Graph</a>
+                            <a href="#" class="dropdown-item">SEO</a>
+                            <a href="#" class="dropdown-item">Social Media Marketing</a>
+                            <a href="#" class="dropdown-item">Graphic Design</a>
+                            <a href="#" class="dropdown-item">Wordpress site Developement</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link nav-item" id="nav-li">Blog</a>
+                    <a href="Contact.html" class="nav-link nav-item" id="nav-li">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Slider Start from here  -->
+    <div class="container-fluid">
+        <!--Carousel Wrapper-->
+        <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ul class="carousel-indicators">
+                <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+            </ul>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <div class="view">
+                        <video class="video-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/cover 5.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-indigo-light"></div>
+                    </div>
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Learn Modern Technology </h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.First slide -->
+
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="video-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/cover.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-purple-slight"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Learn about Virtual Reality</h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Second slide -->
+
+
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="video-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/course-cover-1.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-purple-slight"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive text-">Learn Modern Languages</h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Second slide -->
+                <!-- /.Third slide -->
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+    </div>
+    <!--Carousel Wrapper-->
+    <!-- copied code ends here   -->
+
+    </div>
+    <!-- slider end here  -->
+
+    <!-- inight section start from here  -->
+    <div class="container shadow  p-5">
+        <div id="divh1">
+            <h1 class="title-underline">
+                Ins<span style="color: #666666;">ight</span>
+            </h1>
+        </div>
+        <div id="divp">
+            <p>
+                Excel Learning Academy is a Multi-Dimensional Online IT Training Institute. Join Us to kick-start
+                your career with Industry-Relevant curriculum for developing in-demand skills, and get prepared for job
+                opportunities in companies.
+            </p>
+            <ul class="ml-5">
+                <li>Quality Education Provider</li>
+                <li>Training by Industry Experts</li>
+                <li> Get a Certificate form Government </li>
+                <li> Latest curriculum based on Industry Requirement</li>
+                <li> Weekly workshops for Students' Development</li>
+            </ul>
+        </div>
+        <div id="divh1">
+            <h1 class="display-3  title-underline">
+                Cou<span style="color: #666666;">rses</span>
+            </h1>
+        </div>
+        <div id="divp">
+            <p> Excel Learning Academy provide variation of courses such as:</p>
+            <ul style="font-size: 20px;" class="ml-5">
+                <li> Office Automation</li>
+                <li> Web Designing & Development</li>
+                <li> Graphic Designing</li>
+                <li>Computerize Accounting</li>
+                <li> Android Development</li>
+                <li> Digital Marketing (Social Media Marketing)</li>
+                <li> Certificate in Information Technology</li>
+                <li>Freelancing and many more courses are included!</li>
+            </ul>
+        </div>
+
+        <!-- inight section end here  -->
+        <!-- <div class="container mt-5 mb-5" style="margin: 0 auto;"> -->
+        <div id="divh1">
+            <h1 class="display-3  title-underline">
+                Course<span style="color: #666666;">Gallery</span>
+            </h1>
+        </div>
+
+        <!--Course Gallery -->
+        <!-- First Row  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Web Developement</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Graphic Designing</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2">$ • American, Restaurant</p>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Digital Marketing</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second Gallery row  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/office.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Ms-Office</h4>
+
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c14.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn App Developement</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c15.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Free-lancing</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- third gallaery row  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c12.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Computerize Accounting</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Book Keeping</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Financial Modeling</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth Gallery Row  -->
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c10.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Python Hacking</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Computer Repair</h4>
+
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c11.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Cisco CCNA</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact div Section end here -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 p-0">
+                <div class="re-box h-100">
+                    <p style="text-align: justify;color: white;font-size: 25px; padding: 4em 5em;"> You're not going to
+                        hit a ridiculously long phone menu when you call
+                        us. Your email isn't going to the inbox abyss, never to be seen or heard from again. At Choice
+                        Screening, we provide the exceptional service we'd want to experience ourselves!</h4>
+                </div>
+                <!-- <img src="ASSET/IMG/about-05.jpg" id="off-img" alt="" class="img-fluid w-100 h-100"> -->
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="form-box">
+                    <form action="/action_page.php">
+                        <h1>Request A Quote</h1>
+                        <input type="text" id="inputFName" placeholder="Enter Your Name">
+                        <input type="email" id="inputEmail" placeholder="Enter Your Email Address">
+                        <input type="number" placeholder="Enter Your Cell Number">
+                        <textarea placeholder="Message.." rows="5" id="comment"></textarea>
+                        <input type="submit" value="Submit" class="btn btn-warning py-3 px-5 mt-3" id="btn-custom-1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cotact Section End here  -->
+    <div id="divh1">
+        <h1 class="display-3  title-underline">
+            Discount<span style="color: #666666;">Offers</span>
+        </h1>
+    </div>
+
+    <!-- Course Card gallery Starts From here  -->
+
+    <div class="container mt-5">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Web Developement</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 2 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 8000/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary  btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Graphic Designing</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 1 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 6000/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary  btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Digital Marketing</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 1 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 5000/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- second Gallery row  -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/office.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Ms-Office</h4>
+
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 1 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 3500/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary  btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c14.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn App Developement</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 4 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 14,000/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary  btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="ASSET/IMG/course/c8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Learn Financial Modeling</h4>
+                        <!-- Data Star-->
+                        <ul class="list-unstyled list-inline rating mb-0">
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"> </i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item mr-0"><i class="fas fa-star text-warning"></i>
+                            </li>
+                            <li class="list-inline-item"><i class="fas fa-star-half-alt text-warning"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.5 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2 lead">Duration: 1 Month</p>
+                        <p class="mb-2 lead">Cost : Rs. 5000/-</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-primary  btn-lg text-center" href="">Enroll</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Subscribe Section  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 p-0">
+                <div class="Email-box">
+                    <div class="content">
+                        <h2 class="text-white">SUBSCRIBE</h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn" type="submit">Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /--Subscribe Section  -->
+    <!-- footer  -->
+    <div class="container-fluid  bg-dark p-5 text-white">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <h3 class=" title-underline">Contact Us </h3>
+                <p style="color: lightgrey;">Head Office,<br>
+                    A-25, Bahadurabad Chowrangi Karachi, Pakistan <br>
+                    <i class="fa fa-phone pr-2 mt-3 text-success"></i>UAN: 111-729-526
+                    <i class="fa fa-globe pl-4 pr-2  text-success"></i>+0092-213)
+                    4130786-90 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>CELL: +92-344-3611316 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>USA NO +1(716)941 7792 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>UK NO (+44)115 970 6256 <br>
+                    <i class="fa fa-envelope pr-2 mt-3  text-success"></i>muhammadkashan260 @gmail.com
+                </p>
+            </div>
+            <div class="col-lg-3 pl-3">
+                <h3 class=" title-underline">Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Team.html">Techer</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">IT-Solution</a></li>
+                    <li><a href="Contact/Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h3 class=" title-underline">Connect with Us</h3>
+                <div class="soc_icon">
+                    <i class="fa fa-facebook icoFacebook"></i>
+                    <i class="fa fa-twitter icotwit"></i>
+                    <i class="fa fa-instagram icoinsta"></i>
+                    <i class="fa fa-youtube icoYt" id=""></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- sub footer  -->
+    <div class="container-fluid pt-3 pl-5 pb-2 text-white" style="background-color: dodgerblue;" id="footer">
+
+        <p>Copyright &copy; 2020 ExcelLearning Academy</p>
+
+    </div>
+    <!-- /sub footer  -->
+    <!--/ footer end here  -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

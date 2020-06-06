@@ -1,0 +1,374 @@
+/* CSS Reset  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font CSS  */
+h1 {
+    font-size: 10vw;
+}
+
+h2 {
+    font-size: 5.9vh;
+}
+
+h3 {
+    font-size: 3.0vw;
+}
+
+p {
+    font-size: 3.0vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    /* font-size: 20px; */
+    line-height: 1.5;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+    font-weight: 900;
+}
+
+/*Main heading & paragraph CSS  */
+#divh1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#divh1>h1 {
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    /* color: #fa0606; */
+    /* color: #5bc0de; */
+    color: dodgerblue;
+}
+
+#divp {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2;
+    padding: 20px;
+    font-size: larger;
+    color: gray;
+
+}
+
+/* main heading content box css  */
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+/* heading underline  */
+
+.title-underline {
+    display: inline-block;
+    border-bottom: 4px solid;
+    border-color: #666666;
+}
+
+.opacity-60 {
+    opacity: 0.4;
+}
+
+/* Respnsive video extra Css  */
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* navigation bar CSS  */
+#nav-li {
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 5px 2px 0px 1px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: linear;
+    color: #666666;
+}
+
+#nav-li:hover {
+    background-color: dodgerblue;
+    color: white;
+    padding: 13px;
+}
+
+.nav-link,
+a {
+    color: #25272E;
+}
+
+/*Extra CSS for navigation Dropdown */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: .2s;
+    transition-timing-function: ease-in;
+    margin: 2px;
+}
+
+.dropdown-item:hover {
+    margin: 2px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+/* feature icon-box CSS*/
+.icon-box {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.icon {
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    background: linear-gradient(to right, dodgerblue, #666666);
+    border-radius: 100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* feature-box CSS*/
+.feature-box {
+    text-align: center;
+    padding-top: 30px;
+    margin: 10px;
+    height: 300px;
+    box-shadow: 0 0 10px 5px lightgrey;
+}
+
+/* Quote Style  */
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+}
+
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* footer CSS */
+
+.icoYt:hover {
+    background-color: #e52d27;
+}
+
+a,
+.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+a,
+.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+/* Social media icons CSS */
+#soc_icon {
+    margin: 0 auto 0 auto;
+}
+
+.icoYt {
+    cursor: pointer;
+    background-color: #1f2027;
+    padding: 10px 15px;
+
+}
+
+.icoYt:hover {
+    background-color: #e52d27;
+    transform: rotate(360deg);
+    transition: all 0.8s;
+}
+
+.icoFacebook {
+    cursor: pointer;
+    background-color: #1f2027;
+    padding: 10px 15px;
+}
+
+.icoFacebook:hover {
+    background-color: #3B5998;
+    transform: rotate(360deg);
+    transition: all 0.8s;
+}
+.icoinsta{
+    cursor: pointer;
+    background-color: #1f2027;
+    padding: 10px 15px;
+}
+.icoinsta:hover {
+    background-color: purple;
+    transform: rotate(360deg);
+    transition: all 0.8s;
+}
+
+.icotwit{
+    cursor: pointer;
+    background-color: #1f2027;
+    padding: 10px 15px;
+}
+.icotwit:hover {
+    background-color: #0474dd;
+    transform: rotate(360deg);
+    transition: all 0.8s;
+}
+ul > li{
+    list-style-type: square;
+} 
+
+/* about page CSS  */
+
+#status {
+    height: auto;
+    padding: 50px;
+    background-color: #316dc3;
+    color: #fff;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Request quote form CSS */
+
+@media (max-width:629px) {
+    .re-box {
+        display: none;
+    }
+}
+
+
+.form-box,
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    outline: none;
+    height: 40px;
+    color: #25272E;
+    font-size: inherit;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to bottom right, dodgerblue, #666666);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: inherit;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to left, #666666, dodgerblue);
+    color: white;
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #25272E;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-box {
+    width: 100%;
+    height: 100%;
+    background: url(\CSS/ASSET/IMG/course/subscribe-cover.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+    color: #fff;
+    padding: 70px 30px;
+}
+
+.re-box {
+    background: linear-gradient(to bottom right, dodgerblue, #666666);
+    /* background: dodgerblue; */
+    width: 100% 100%;
+    height: auto;
+}
+
+/*Subsrcibe form  */
+.Email-box {
+    width: 100%;
+    height: 100%;
+    background: url(asset/IMG/course/subscribe-cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 30px;
+}
+
+.content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content .btn {
+    min-height: 40px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 600;
+}

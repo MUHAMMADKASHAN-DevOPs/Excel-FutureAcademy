@@ -1,0 +1,11 @@
+body{
+    background: url(ASSET/IMG/signup-bg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+.m-20{
+    margin: 10%;
+}

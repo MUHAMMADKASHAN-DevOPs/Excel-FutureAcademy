@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styleSheet.CSS" type="text/CSS">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Font Awesome icons kit link  -->
+    <script src=" https://kit.fontawesome.com/9f195b82c1.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header starts from here-- -->
+    <!-- navigation -->
+    <div class="container_fluid sticky-top">
+        <nav class=" navbar navbar-expand-lg bg-light possition-fixed">
+            <a href="index.html" class="ml-5">
+                <img src="ASSET/IMG/logo2.png" height="50" alt="lOGO">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link" id="nav-li">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="about.html" style="background-color: dodgerblue;color: white;" class="nav-link active"
+                            id="nav-li">About
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="about.html" class="dropdown-item">Introduction</a>
+                            <a href="iPortfolio/index.html" class="dropdown-item">Portfolio</a>
+                            <a href="FAQ.html" class="dropdown-item">FAQs</a>
+                        </div>
+                    </div>
+                    <a href="Team.html" class="nav-link nav-item " id="nav-li">Teacher</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link" id="nav-li">Courses
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="courses.html" class="dropdown-item">Office Automation</a>
+                            <a href="courses.html" class="dropdown-item">Computeize Accouting</a>
+                            <a href="courses.html" class="dropdown-item">CIT(Certificate of Information Technology)</a>
+                            <a href="courses.html" class="dropdown-item">Graphic Designing</a>
+                            <a href="courses.html" class="dropdown-item">Web Designing/Developmemt</a>
+                            <a href="courses.html" class="dropdown-item">Software Developement</a>
+                            <a href="courses.html" class="dropdown-item">Digital/Social Media Marketing</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="nav-li">IT Solution
+                            <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Web & App Develpement</a>
+                            <a href="#" class="dropdown-item">Software Developement</a>
+                            <a href="#" class="dropdown-item">Data Entry & Graph</a>
+                            <a href="#" class="dropdown-item">SEO</a>
+                            <a href="#" class="dropdown-item">Social Media Marketing</a>
+                            <a href="#" class="dropdown-item">Graphic Design</a>
+                            <a href="#" class="dropdown-item">Wordpress site Developement</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link nav-item" id="nav-li">Blog</a>
+                    <a href="Contact.html" class="nav-link nav-item" id="nav-li">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Slider Start from here  -->
+    <div class="container-fluid">
+        <!--Carousel Wrapper-->
+        <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ul class="carousel-indicators">
+                <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+            </ul>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!-- First slide -->
+
+                <div class="carousel-item active">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="vido-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/cover.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-purple-slight"></div>
+                    </div>
+                    <!-- <img class="d-block w-100" src="ASSET/IMG/slide/about-1.jpg" alt="Second slide"> -->
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Modern Technology</h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.First slide -->
+
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="video-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/cover 3.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-purple-slight"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Digital Learning Platform</h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Second slide -->
+
+
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="video-fluid" height="800px" autoplay loop muted>
+                            <source src="ASSET/VID/Cover 4.mp4" type="video/mp4" />
+                        </video>
+                        <div class="mask rgba-purple-slight"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Personalized Learning</h3>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <!-- /.Second slide -->
+                <!-- /.Third slide -->
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+    </div>
+    <!--Carousel Wrapper-->
+    <!-- slider end here  -->
+    <!-- About-->
+    <div class="container text-center mt-5">
+        <div id="content">
+            <div id="divh1">
+                <h1 class=" title-underline">
+                    About<span style="color: #666666;">Us:</span>
+                </h1>
+            </div>
+            <p class="text-muted text-center ">
+                “Every Morning You Have Two Choices: Continue To Sleep With Your Dreams, Or Wake Up and Chase Them.”
+                <br> — Carmelo Anthony
+            </p>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <img src="ASSET/IMG/about-slide 1.jpg" alt="" class="img-fluid shadow rounded">
+            </div>
+            <div class="col-lg-4 p-5 ">
+                <h1 class="text-bold">Hello!</h1> <br><br>
+                <h4>Helping tutees progress in their education</h4>
+                <p class="text-muted text-justify">This site aims to provide free access to a list of
+                    tutors
+                    in the area through our tutor
+                    directory. We
+                    also provide practical advice to students, parents and tutors on many aspects of private
+                    tuition,
+                    principally focusing on secondary education tuition.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6 bg-white p-5">
+                <h1 class="text-info text-bold ">Why Private Tuition?
+                </h1>
+                <br><br>
+                <h3>As a parent you may choose a home tutor</h3>
+                <p class="text-muted text-justify ">Secondary and degree level of private tuition or home
+                    tutoring can be a perfect choice if you are looking for a way to improve your child's
+                    knowledge.
+                    Our
+                    tutors offer a range of subjects such as English and Maths and also niche subjects like
+                    languages..
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="ASSET/IMG/about-05.jpg" alt="" class="img-fluid shadow-rounded">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- status content starts from here  -->
+    <div class="col col-lg-12" id="status">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <img src="assets/images/fa-utensil.png" alt="" width="50px" height="50px"> <br><br>
+                <h1 class="fa-3x">125,000</h1><br>
+                <h5>DAILY DASTRAKHAN <span style="color: lightgreen;">(MONTHLY)</span> </h5>
+            </div>
+            <div class="col-md-3 ">
+                <img src="assets/images/fa-child.png" alt="" width="50px" height="50px"> <br><br>
+                <h1 class="fa-3x">7,500</h1><br>
+                <h5>FAMILY ADOPTION<span style="color: lightgreen;">(MONTHLY)</span></h5>
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/fa-stethescope.png" alt="" width="50px" height="50px"> <br><br>
+                <h1 class="fa-3x">43,749</h1><br>
+                <h5>MEDICAL<span style="color: lightgreen;">(MONTHLY)</span></h5>
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/fa-graduate.png" alt="" width="50px" height="50px"> <br><br>
+                <h1 class="fa-3x">180,000</h1><br>
+                <h5>EDUCATION <span style="color: lightgreen;">(MONTHLY)</span> </h5>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- status content end here-- -->
+    <div class="container text-center mt-5">
+        <div id="content">
+            <div id="divh1">
+                <h1 class=" title-underline">
+                    Our <span style="color: #666666;">Objective:</span>
+                </h1>
+            </div>
+            <p class="text-muted text-center ">
+                Explore Our site to learn more about Us, Our background and what we have to offer. If you
+                have questions or would like to discuss an opportunity to work together, feel free to get in
+                touch.
+            </p>
+        </div>
+    </div>
+    <h1 class="text-muted ml-5"> Education</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6"><img src="ASSET/IMG/about-03.jpg" alt=""
+                    class="img-fluid h-100 w-100 shadow rounded-circle"></div>
+            <div class="col-lg-6 h-auto p-5 shadow rounded">
+                <!-- content  paragraph-->
+                <h1 class="text-info">What is Education?</h1>
+                <p class="text-muted text-justify">
+                    Education brings a natural and lasting change in an individual’s reasoning and ability to
+                    achieve
+                    the targeted goal.Education is the main thing that encourages us to distinguish between
+                    right
+                    and
+                    wrong because in the absence of education, we can’t do what we need or we can’t achieve our
+                    goal,that’s why we decided to offer assistance to local students based on their education.
+                    <br>
+                    Straightforwardly, we can say, “education is the passage to progress”. It is additionally
+                    the
+                    way to
+                    our fate as achievements can only be accomplished when individuals have information,
+                    aptitudes,
+                    and
+                    frame of mind.
+                </p>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-lg-6 h-auto p-5 shadow rounded">
+                        <!-- content  paragraph-->
+                        <h1 class="text-info">How we Teach?</h1>
+                        <p class="text-muted text-justify">
+                            We believe in effective teaching.In my opinion, being an effective teacher means
+                            allowing an
+                            environment
+                            that enables students to learn to their best abilities.<br>
+                            A teacher must continually make decisions and act on those decisions beacuase We
+                            know
+                            that
+                            not
+                            every
+                            student
+                            learns in the same way. Some students may be better visual learners while others are
+                            better
+                            at
+                            hands
+                            on
+                            activities,So we creates instructional opportunities that are adapted to diverse
+                            learners,With
+                            our
+                            little
+                            help they
+                            approaches to learning because
+                            We teach the content in a way that students can relate to or in some way apply it
+                            into
+                            their
+                            own
+                            life will
+                            help them to understand it.
+                        </p>
+                    </div>
+                    <div class="col-lg-6"><img src="ASSET/IMG/about-05.jpg" alt=""
+                            class="img-fluid shadow rounded-circle">
+                    </div>
+                </div>
+                <section class="py-5">
+                    <div class="container">
+                        <!-- quote  -->
+                        <div class="row">
+                            <div class="col-lg-6"><img src="ASSET/IMG/teacher 2.jpg" alt=""
+                                    class="img-fluid w-100 shadow rounded-circle">
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- CUSTOM BLOCKQUOTE -->
+                                <blockquote class="blockquote blockquote-custom bg-white p-5 mt-4 shadow rounded">
+                                    <div class="blockquote-custom-icon bg-info shadow-sm">
+                                        <i class="fa fa-quote-left text-white"></i></div>
+                                    <p class="mb-0 mt-2 font-italic">"A good teacher is like a candle - it consumes
+                                        itself
+                                        to
+                                        light
+                                        the way for others."<a href="#" class="text-info">@consequat</a>." </p>
+                                    <cite title="Source Title">Unkown Author</cite>
+                                    <footer class="blockquote-footer pt-4 mt-4 border-top">The following artifact
+                                        demonstrates
+                                        the
+                                        impact I have had on student learning during my student teaching experience.
+                                    </footer>
+                                </blockquote><!-- END -->
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- education section ends here  -->
+    <img src="ASSET/IMG/cover.jpg" alt="" class="img-fluid w-100">
+<h1 class="text-muted ml-5 mt-5"> IT Solution</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa fa-code text-white"></i>
+                        </div>
+                    </div>
+                    <h4 class=" pt-4">WEB & APP<br> DEVELOPMENT</h4>
+                    <p class="lead">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h4 class="pt-4">DIGITAL <br> MARKETING</h4>
+                    <p class="lead">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa fa-laptop-code" style="font-size:40px"></i>
+                        </div>
+                    </div>
+                    <h4 class="pt-4">SOFTWARE DEVELOPMENT</h4>
+                    <p class="lead">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- second row  -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa fa-paint-brush" style="font-size:40px"></i>
+                        </div>
+                    </div>
+                    <h4 class="pt-4">GRAPHIC <br> DESIGNING</h4>
+                    <p class="lead">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa fa-keyboard-o"></i>
+                        </div>
+                    </div>
+                    <h4 class="pt-4">COPY PASTE <br> TYPING</h4>
+                    <p class="lead ">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="col-md-12 feature-box">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa fa-search" style="font-size:40px"></i>
+                        </div>
+                    </div>
+                    <h4 class="pt-4">SEARCH ENGIN OPTIMIZATION</h4>
+                    <p class="lead">Support the most vulnerable children and youth from accessing quality education
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact div Section end here -->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-6 p-0">
+                <div class="re-box h-100">
+                    <p style="text-align: justify;color: white;font-size: 25px; padding: 4em 5em;"> You're not going
+                        to
+                        hit a ridiculously long phone menu when you call
+                        us. Your email isn't going to the inbox abyss, never to be seen or heard from again. At
+                        Choice
+                        Screening, we provide the exceptional service we'd want to experience ourselves!</h4>
+                </div>
+                <!-- <img src="ASSET/IMG/about-05.jpg" id="off-img" alt="" class="img-fluid w-100 h-100"> -->
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="form-box">
+                    <form action="/action_page.php">
+                        <h1>Request A Quote</h1>
+                        <input type="text" id="inputFName" placeholder="Enter Your Name">
+                        <input type="email" id="inputEmail" placeholder="Enter Your Email Address">
+                        <input type="number" placeholder="Enter Your Cell Number">
+                        <textarea placeholder="Message.." rows="5" id="comment"></textarea>
+                        <input type="submit" value="Submit" class="btn btn-warning py-3 px-5 mt-3" id="btn-custom-1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cotact Section End here  -->
+    <div class="container w-auto mt-5 text-center">
+        <div id="divh1">
+            <h1 class="title-underline">
+                Meet O<span style="color: #666666;">ur Team</span>
+            </h1>
+        </div>
+        <p class="lead text-muted text-center" style="line-height: 2.2rem;">
+
+            We are delighted to welcome you to this platform.This Platform is made for Two objectives "Educational &
+            IT
+            Service".Our mission is helping students improve their lives by offering an online affordable Coaching
+            also
+            Our approach is based on years of experience helping our clients adopt Objective solutions.
+        </p>
+    </div>
+    <div class="container" style="margin-bottom:10% ;">
+        <div class="row ">
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-5.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">JS Developer</figcaption>
+                    </h2>
+                </figure>
+            </div>
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-6.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Creative Director</figcaption>
+                    </h2>
+                </figure>
+            </div>
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-1.jpeg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">C.E.O</figcaption>
+                    </h2>
+                </figure>
+            </div>
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-7.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Office Manager</figcaption>
+                    </h2>
+                </figure>
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-3.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Support Manager</figcaption>
+                    </h2>
+                </figure>
+            </div>
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-2.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Software Engineer</figcaption>
+                    </h2>
+                </figure>
+            </div>
+
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-8.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Art Director</figcaption>
+                    </h2>
+                </figure>
+
+            </div>
+            <div class="col-lg-3">
+                <figure class="figure">
+                    <img src="ASSET/IMG/team-7.jpg" class="figure-img img-fluid rounded-circle shadow" alt="">
+                    <h2>
+                        <figcaption class="figure-caption text-center text-info">Copyrighter</figcaption>
+                    </h2>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe Section  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 p-0">
+                <div class="Email-box">
+                    <div class="content">
+                        <h2 class="text-white">SUBSCRIBE</h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn" type="submit">Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /--Subscribe Section  -->
+    <!-- footer  -->
+    <div class="container-fluid  bg-dark p-5 text-white">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <h3 class=" title-underline">Contact Us </h3>
+                <p style="color: lightgrey;">Head Office,<br>
+                    A-25, Bahadurabad Chowrangi Karachi, Pakistan <br>
+                    <i class="fa fa-phone pr-2 mt-3 text-success"></i>UAN: 111-729-526
+                    <i class="fa fa-globe pl-4 pr-2  text-success"></i>+0092-213)
+                    4130786-90 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>CELL: +92-344-3611316 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>USA NO +1(716)941 7792 <br>
+                    <i class="fa fa-phone pr-2 mt-3  text-success"></i>UK NO (+44)115 970 6256 <br>
+                    <i class="fa fa-envelope pr-2 mt-3  text-success"></i>muhammadkashan260 @gmail.com
+                </p>
+            </div>
+            <div class="col-lg-3 pl-3">
+                <h3 class=" title-underline">Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Team.html">Techer</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">IT-Solution</a></li>
+                    <li><a href="Contact/Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h3 class=" title-underline">Connect with Us</h3>
+                <div class="soc_icon">
+                    <i class="fa fa-facebook icoFacebook"></i>
+                    <i class="fa fa-twitter icotwit"></i>
+                    <i class="fa fa-instagram icoinsta"></i>
+                    <i class="fa fa-youtube icoYt" id=""></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- sub footer  -->
+    <div class="container-fluid pt-3 pl-5 pb-2 text-white" style="background-color: dodgerblue;" id="footer">
+
+        <p>Copyright &copy; 2020 ExcelLearning Academy</p>
+
+    </div>
+    <!-- /sub footer  -->
+    <!--/ footer end here  -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
